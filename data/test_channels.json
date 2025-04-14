@@ -1,0 +1,20 @@
+{
+    "@GoNoodle": {
+      "channel_id": "UC2YBT7HYqCbbvzu3kKZ3wnw",
+      "title": "GoNoodle | Get Moving",
+      "thumbnail": "https://yt3.googleusercontent.com/ytc/AIdro_lpPsraLlE6yw-vcFVQ7b64fIW-0jEkKgzL5eHc3Xv2zVk=s900-c-k-c0x00ffffff-no-rj",
+      "group": "2-5"
+    },
+    "@MarkRober": {
+      "channel_id": "UCY1kMZp36IQSyNx_9h4mpCg",
+      "title": "Mark Rober",
+      "thumbnail": "https://yt3.googleusercontent.com/ytc/AIdro_ksXY2REjZ6gYKSgnWT5jC_zT9mX900vyFtVinR8KbHww=s900-c-k-c0x00ffffff-no-rj",
+      "group": "3-5"
+    },
+    "@ToddlerFunLearning": {
+        "channel_id": "UCZzfOkvfLKdKYEWAZ_Vc0zg",
+        "title": "Toddler Fun Learning",
+        "thumbnail": "https://yt3.googleusercontent.com/ytc/AIdro_kO-rtjQVJwC-3a8up__PDqZEFG3vd-eLld1MEKsQIGw3Q=s900-c-k-c0x00ffffff-no-rj",
+        "group": "2-5"
+    }
+  }

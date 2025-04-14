@@ -1,0 +1,192 @@
+{
+    "Christ-Centered Knowledge": {
+      "toddler": [
+        "@SaddlebackKids",
+        "@LCLifeKids",
+        "@BibleBedtimeChildren",
+        "@MinnoKids",
+        "@crdschurchkc",
+        "@freedomkids",
+        "@SuperbookTV"
+      ],
+      "youth": [
+        "@bibleproject",
+        "@kidsfindtruth630"
+      ],
+      "teen": [
+        "@answersingenesis",
+        "@icrscience",
+        "@LivingWaters",
+        "@CrossExamined",
+        "@LetsTalkCreation",
+        "@DrJamesTour",
+        "@Daily_Dose_Of_Wisdom",
+        "@creationministriesintl",
+        "@givemeananswer"
+      ]
+    },
+    "Academic Foundations": {
+      "toddler": [
+        "@officialalphablocks",
+        "@KhanAcademyKids",
+        "@GoNoodle",
+        "@rocknlearn",
+        "@NUMBEROCKLLC",
+        "@Peekaboo_Kidz"
+      ],
+      "youth": [
+        "@ReadingRocketsLiteracy",
+        "@FreeSchool",
+        "@HomeschoolPop",
+        "@LearnBright",
+        "@braincandytv",
+        "@SciShowKids",
+        "@SuperSimpleEspanol",
+        "@LearningSpanishwithJohanna",
+        "@SocraticaKids",
+        "@BedtimeHistory"
+      ],
+      "teen": [
+        "@mathantics",
+        "@MindYourDecisions"
+        ]
+    },
+    "Creation-based science & nature": {
+      "toddler": [],
+      "youth": [],
+      "teen": []
+    },
+    "Worship & Wonder": {
+      "toddler": [
+        "@SuperSimpleSongs",
+        "@ToddlerFunLearning",
+        "@thekiboomers",
+        "@Learningstationmusic",
+        "@WonderGroveKids",
+        "@Storyberries"
+      ],
+      "youth": [],
+      "teen": []
+    },
+    "Skills for Life": {
+      "toddler": [
+        "@JackHartmann"
+      ],
+      "youth": [],
+      "teen": []
+    },
+    "Geography & Culture": {
+      "toddler": [],
+      "youth": [],
+      "teen": []
+    },
+    "History & Civics": {
+      "toddler": [],
+      "youth": [],
+      "teen": [
+        "@TheImperatorKnight",
+        "@AtunSheiFilms",
+        "@MilitaryHistoryVisualized",
+        "@Martyrmade"
+      ]
+    },
+    "Technology & Engineering": {
+      "toddler": [],
+      "youth": [],
+      "teen": []
+    },
+    "Christian Child Development": {
+      "toddler": [],
+      "youth": [],
+      "teen": []
+    },
+    "Learn Music": {
+      "toddler": [],
+      "youth": [
+        "@MusicwithMeg",
+        "@MyMusicWorkshop",
+        "@Hoffmanacademy"
+
+      ],
+      "teen": [
+        "@MusicMattersGB",
+        "@strivetobe",
+        "@cimorellitheband",
+        "@worshipartistry",
+        "@Guitarmann",
+        "@WorshipMusicAcademy",
+        "@MusicademyWorshipTraining"
+
+      ]
+    },
+    "Art and Drawing": {
+      "toddler": [],
+      "youth": [
+        "@artforkidshub",
+        "@bobross_thejoyofpainting",
+        "@DrawSoCute"
+    ],
+        "teen": [
+        "@jamesdaviesart",
+        "@Amazingartscafe"
+      ]
+    },
+    "Physical Education and Sports": {
+      "toddler": [
+        "@CosmicKidsYoga"
+        ],
+      "youth": [],
+      "teen": []
+    },
+    "Conventional STEM": {
+      "toddler": [],
+      "youth": [
+        "@MarkRober",
+        "@besmart",
+        "@MinutePhysics",
+        "@smartereveryday",
+        "@tested",
+        "@veritasium",
+        "@BraveWilderness",
+        "@natgeokids",
+        "@australiazoo",
+        "@TheDadLab",
+        "@WhizKidScience",
+        "@crashcoursekids"
+        ],
+      "teen": [
+        "@SciShow",
+        "@GeographyNow"
+        
+      ]
+    },
+    "Coding and Computer Science":{
+      "toddler": [],
+      "youth": [],
+      "teen": [
+        "@freecodecamp",
+        "@TechWithTim",
+        "@crashcourse"
+      ]
+    },
+    "Entrepreneurship and Financial Literacy": {
+      "toddler": [],
+      "youth": [
+        "@kidvestors",
+        "@BizKidsTV"
+      ],
+      "teen": [
+        "@Socratica",
+        "@PricelessTay"
+      ]
+      },
+    "Homesteading and Practical Homemaking": {
+      "toddler": [],
+      "youth": [],
+      "teen": [
+        "@RootsandRefugeFarm",
+        "@theprairiehomestead"
+      ]
+      }
+  }
+  
