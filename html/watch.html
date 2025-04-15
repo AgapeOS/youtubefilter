@@ -1,128 +1,168 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Watch Video - AgapeOS</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: sans-serif;
       background: #f9f9f9;
+      margin: 0;
       padding: 2em;
       display: flex;
+      flex-wrap: wrap;
       gap: 2em;
     }
+
     .main {
-      flex: 2;
+      flex: 2 1 60%;
+      min-width: 320px;
     }
+
     .sidebar {
-      flex: 1;
+      flex: 1 1 110px;
       background: white;
       padding: 1em;
       border-radius: 8px;
       box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+      max-height: 90vh;
+      overflow-y: auto;
     }
-    iframe, img {
+
+    .video-frame {
+      aspect-ratio: 16 / 9;
       width: 100%;
-      max-width: 800px;
+      max-width: 100%;
+      border: none;
       border-radius: 8px;
+      margin-bottom: 1em;
     }
+
     h1 {
-      font-size: 1.5em;
-      margin-top: 0.5em;
+      font-size: 1.6em;
+      margin: 0.5em 0;
     }
+
     .meta {
       color: #555;
       font-size: 0.9em;
       margin-bottom: 1em;
     }
+
     .recommendation {
-      margin-bottom: 1em;
+      margin-bottom: 0.85em;
     }
+
     .recommendation img {
       width: 100%;
       border-radius: 4px;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      display: block;
+    }
+
+    .recommendation strong {
+      display: block;
+      margin-top: 0.9em;
+      font-size: 1.2em;
+    }
+
+    @media (max-width: 900px) {
+      body {
+        flex-direction: column;
+        padding: 1em;
+      }
+
+      .sidebar {
+        max-height: none;
+      }
     }
   </style>
 </head>
 <body>
 
-<div class="main" id="video-container">
-  <h1>Loading...</h1>
-</div>
+  <div class="main" id="video-container">
+    <h1>Loading...</h1>
+  </div>
 
-<div class="sidebar" id="recommendations">
-  <h2>Recommended</h2>
-</div>
+  <div class="sidebar" id="recommendations">
+    <h2>Recommended</h2>
+  </div>
 
-<script>
-  const params = new URLSearchParams(window.location.search);
-  const channel = params.get("channel");
-  const videoId = params.get("video");
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const channel = params.get("channel");
+    const videoId = params.get("video");
 
-  if (!channel || !videoId) {
-    document.getElementById("video-container").innerHTML = "<h1>Missing video or channel.</h1>";
-    throw new Error("Missing query parameters.");
-  }
+    if (!channel || !videoId) {
+      document.getElementById("video-container").innerHTML = "<h1>Missing video or channel.</h1>";
+      throw new Error("Missing query parameters.");
+    }
 
-  fetch(`cached/${channel}.json`)
-    .then(res => res.json())
-    .then(data => {
-      const videos = data.videos || [];
-      const video = videos.find(v => v.video_id === videoId);
+    fetch(`https://raw.githubusercontent.com/AgapeOS/youtubefilter/main/html/cached/${channel}.json`)
+      .then(res => res.json())
+      .then(data => {
+        const videos = data.videos || [];
+        const video = videos.find(v => v.video_id === videoId);
 
-      if (!video) {
-        document.getElementById("video-container").innerHTML = "<h1>Video not found</h1>";
-        return;
-      }
+        if (!video) {
+          document.getElementById("video-container").innerHTML = "<h1>Video not found</h1>";
+          return;
+        }
 
-      // Main Video Section
-      document.getElementById("video-container").innerHTML = `
-        <iframe src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
-        <h1>${video.title}</h1>
-        <div class="meta">👁️ ${formatViews(video.view_count)} • 📅 ${formatDate(video.published_at)}</div>
-        <p>${video.description || ''}</p>
-      `;
+        // Main Video Section
+        document.getElementById("video-container").innerHTML = `
+          <iframe class="video-frame" src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
+          <h1>${video.title}</h1>
+          <div class="meta">👁️ ${formatViews(video.view_count)} • 📅 ${formatDate(video.published_at)}</div>
+          <p>${video.description || ''}</p>
+        `;
 
-      // Recommendations from same channel
-      const recommendations = videos
-        .filter(v => v.video_id !== videoId)
-        .sort(() => 0.5 - Math.random())
-        .slice(0, 8);
+        // Recommendations from same channel
+        const recommendations = videos
+          .filter(v => v.video_id !== videoId)
+          .sort(() => 0.5 - Math.random())
+          .slice(0, 8);
 
-      const recContainer = document.getElementById("recommendations");
-      recommendations.forEach(v => {
-        recContainer.innerHTML += renderRec(channel, v);
+        const recContainer = document.getElementById("recommendations");
+        recommendations.forEach(v => {
+          recContainer.innerHTML += renderRec(channel, v);
+        });
+      })
+      .catch(err => {
+        console.error(err);
+        document.getElementById("video-container").innerHTML = "<h1>Error loading video.</h1>";
       });
-    })
-    .catch(err => {
-      console.error(err);
-      document.getElementById("video-container").innerHTML = "<h1>Error loading video.</h1>";
-    });
 
-  function renderRec(channel, video) {
-    return `
-      <div class="recommendation">
-        <a href="watch.html?channel=${channel}&video=${video.video_id}">
-          <img src="${video.thumbnail}" alt="${video.title}">
-        </a>
-        <div><strong>${video.title}</strong></div>
-        <div class="meta">👁️ ${formatViews(video.view_count)}</div>
-      </div>
-    `;
-  }
+    function renderRec(channel, video) {
+      return `
+        <div class="recommendation">
+          <a href="watch.html?channel=${channel}&video=${video.video_id}">
+            <img src="${video.thumbnail}" alt="${video.title}">
+          </a>
+          <strong>${video.title}</strong>
+          <div class="meta">👁️ ${formatViews(video.view_count)}</div>
+        </div>
+      `;
+    }
 
-  function formatViews(count) {
-    count = parseInt(count);
-    if (count >= 1_000_000) return `${(count / 1_000_000).toFixed(1)}M views`;
-    if (count >= 1_000) return `${(count / 1_000).toFixed(1)}K views`;
-    return `${count} views`;
-  }
+    function formatViews(count) {
+      count = parseInt(count);
+      if (count >= 1_000_000) return `${(count / 1_000_000).toFixed(1)}M views`;
+      if (count >= 1_000) return `${(count / 1_000).toFixed(1)}K views`;
+      return `${count} views`;
+    }
 
-  function formatDate(iso) {
-    const d = new Date(iso);
-    return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
-  }
-</script>
+    function formatDate(iso) {
+      const d = new Date(iso);
+      return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+    }
+  </script>
 
 </body>
 </html>
