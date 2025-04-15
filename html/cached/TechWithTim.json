@@ -2,6 +2,809 @@
   "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
   "videos": [
     {
+      "video_id": "SUfX7Qf7Aw0",
+      "title": "To learn is to struggle",
+      "thumbnail": "https://i.ytimg.com/vi/SUfX7Qf7Aw0/hqdefault.jpg",
+      "published_at": "2024-10-01T15:53:46Z",
+      "duration": 32.0,
+      "description": "To learn is to struggle: I've been learning to code since I was 12 years old!",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 8436,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=SUfX7Qf7Aw0"
+    },
+    {
+      "video_id": "2qc7YkbPOKE",
+      "title": "Do you agree with this take on programmers?",
+      "thumbnail": "https://i.ytimg.com/vi/2qc7YkbPOKE/hqdefault.jpg",
+      "published_at": "2024-10-01T20:28:03Z",
+      "duration": 26.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 6589,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=2qc7YkbPOKE"
+    },
+    {
+      "video_id": "mP0AuMKypd8",
+      "title": "Python vs. JavaScript",
+      "thumbnail": "https://i.ytimg.com/vi/mP0AuMKypd8/hqdefault.jpg",
+      "published_at": "2024-10-03T18:43:47Z",
+      "duration": 33.0,
+      "description": "Which one should you learn? Let me break it down for you.",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 19632,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=mP0AuMKypd8"
+    },
+    {
+      "video_id": "VOcC4_qGXB4",
+      "title": "Let's break down which backend language is best for you!",
+      "thumbnail": "https://i.ytimg.com/vi/VOcC4_qGXB4/hqdefault.jpg",
+      "published_at": "2024-10-03T21:19:32Z",
+      "duration": 45.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 79829,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=VOcC4_qGXB4"
+    },
+    {
+      "video_id": "F60iJ3xxgtg",
+      "title": "VSCode Features Python Devs NEED To Know",
+      "thumbnail": "https://i.ytimg.com/vi/F60iJ3xxgtg/hqdefault.jpg",
+      "published_at": "2024-10-04T14:00:13Z",
+      "duration": 594.0,
+      "description": "In this video, I'll be sharing with you a few powerful VSCode features that all Python devs should learn. If you're a Python developer and you work in VSCode, then you need to know about these simple yet powerful features. So be sure to stick around to the end of this video to learn how to add these features into your coding repertoire and ultimately become an invaluable programmer.\n\nIf you want to land a developer job check out my program with CourseCareers: https://techwithtim.net/dev\n\n\u23f3 Timestamps \u23f3\n00:00 | Feature #1 - Interactive Mode\n02:40 | Feature #2 - Auto Doc Strings\n03:54 | Feature #3 - Pylance Configuration\n07:47 | Feature #4 - LiveShare \n\nHashtags\n#vscode #python #programming",
+      "tags": [
+        "tech with tim",
+        "python",
+        "vscode python",
+        "python programming",
+        "python vscode features",
+        "python coding",
+        "python tutorial",
+        "python extensions for vs code",
+        "best extensions in vs code for python",
+        "visual studio code for python",
+        "vscode python setup",
+        "python vscode",
+        "python tutorial for beginners"
+      ],
+      "view_count": 63459,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=F60iJ3xxgtg"
+    },
+    {
+      "video_id": "pSpSdm0NpxA",
+      "title": "Why most software engineers prefer to work in the United States rather than in Canada",
+      "thumbnail": "https://i.ytimg.com/vi/pSpSdm0NpxA/hqdefault.jpg",
+      "published_at": "2024-10-04T17:40:56Z",
+      "duration": 46.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 84855,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=pSpSdm0NpxA"
+    },
+    {
+      "video_id": "PtS3WLttQ7o",
+      "title": "Breaks are key to avoiding burnout... but too many? Can they mess with your flow?",
+      "thumbnail": "https://i.ytimg.com/vi/PtS3WLttQ7o/hqdefault.jpg",
+      "published_at": "2024-10-04T20:39:35Z",
+      "duration": 31.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 6322,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=PtS3WLttQ7o"
+    },
+    {
+      "video_id": "7vaskI_Kgs0",
+      "title": "Coding has changed a lot.",
+      "thumbnail": "https://i.ytimg.com/vi/7vaskI_Kgs0/hqdefault.jpg",
+      "published_at": "2024-10-05T13:15:00Z",
+      "duration": 53.0,
+      "description": "If I were starting today, here\u2019s how I\u2019d learn it faster.",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 18881,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=7vaskI_Kgs0"
+    },
+    {
+      "video_id": "2QS9vWNErsg",
+      "title": "The 5 HIGHEST PAYING coding niches that you can get into",
+      "thumbnail": "https://i.ytimg.com/vi/2QS9vWNErsg/hqdefault.jpg",
+      "published_at": "2024-10-05T19:15:00Z",
+      "duration": 58.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 9749,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=2QS9vWNErsg"
+    },
+    {
+      "video_id": "2e6DPLnPqgI",
+      "title": "Want to become great at programming? Start with this.",
+      "thumbnail": "https://i.ytimg.com/vi/2e6DPLnPqgI/hqdefault.jpg",
+      "published_at": "2024-10-06T12:52:17Z",
+      "duration": 35.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 11483,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=2e6DPLnPqgI"
+    },
+    {
+      "video_id": "q-JSZ4QFxmg",
+      "title": "How can you truly stand out and land a job as a developer?",
+      "thumbnail": "https://i.ytimg.com/vi/q-JSZ4QFxmg/hqdefault.jpg",
+      "published_at": "2024-10-06T20:31:24Z",
+      "duration": 29.0,
+      "description": "It might be time to shift your focus away from Python and explore other valuable languages.",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 41549,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=q-JSZ4QFxmg"
+    },
+    {
+      "video_id": "oMm8VzW3_lU",
+      "title": "4 Software Developer Roadmaps For 2024+",
+      "thumbnail": "https://i.ytimg.com/vi/oMm8VzW3_lU/hqdefault.jpg",
+      "published_at": "2024-10-07T15:00:57Z",
+      "duration": 1781.0,
+      "description": "Datacamp developer and data science tracks -\u00a0https://datacamp.pxf.io/R5gAka\nDatacamp certifications -\u00a0https://datacamp.pxf.io/daN2mq\n\nIn this video, I will be sharing with you the 4 software developer roadmaps that help you actually land a job. If you want to become a software engineer and you don't a roadmap, you're pretty much already screwed. It's very difficult to be employed as a software engineer if you just have very general skills. You need to pick what kind of area of software development you want to get into, and that's exactly what this video will help you with. \n\nIf you want to land a developer job check out my program with CourseCareers: https://techwithtim.net/dev\n\n\u23f3 Timestamps \u23f3\n00:00 | You NEED a Roadmap\n01:13 | Core Skill for All Roadmaps\n03:45 | AI/Data Science/Machine Learning\n10:27 | Frontend Development\n17:05 | Backend Development\n22:57 | Mobile App Development\n\nHashtags\n#datacamp #softwaredevelopment #career",
+      "tags": [
+        "tech with tim",
+        "how to become a software developer",
+        "how to get software developer job",
+        "data analyst roadmap",
+        "how to become a software engineer",
+        "data analytics roadmap",
+        "software development",
+        "software engineering",
+        "frontend developer",
+        "data scientist roadmap 2024",
+        "software engineer",
+        "how to get software engineer job",
+        "data analyst roadmap 2024",
+        "datacamp review",
+        "data science roadmap 2024"
+      ],
+      "view_count": 112594,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=oMm8VzW3_lU"
+    },
+    {
+      "video_id": "5PNQcJrT6rI",
+      "title": "Don\u2019t make the same mistake I did in my first 3 years of coding.",
+      "thumbnail": "https://i.ytimg.com/vi/5PNQcJrT6rI/hqdefault.jpg",
+      "published_at": "2024-10-07T17:29:14Z",
+      "duration": 35.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 23067,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=5PNQcJrT6rI"
+    },
+    {
+      "video_id": "F-k_G1kwCNM",
+      "title": "Make Your First $500 Freelance Coding",
+      "thumbnail": "https://i.ytimg.com/vi/F-k_G1kwCNM/hqdefault.jpg",
+      "published_at": "2024-10-07T21:03:53Z",
+      "duration": 39.0,
+      "description": "Watch this video to learn how to make your first $500 through freelance coding!",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 46670,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=F-k_G1kwCNM"
+    },
+    {
+      "video_id": "ZKpxX8bOHYY",
+      "title": "This is where most coders get it wrong!",
+      "thumbnail": "https://i.ytimg.com/vi/ZKpxX8bOHYY/hqdefault.jpg",
+      "published_at": "2024-10-08T17:14:04Z",
+      "duration": 34.0,
+      "description": "Writing code is much more than actual coding and typing.",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 25405,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=ZKpxX8bOHYY"
+    },
+    {
+      "video_id": "y54zDw3svvs",
+      "title": "This is the number one way to improve how you will learn coding.",
+      "thumbnail": "https://i.ytimg.com/vi/y54zDw3svvs/hqdefault.jpg",
+      "published_at": "2024-10-08T21:45:02Z",
+      "duration": 29.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 6783,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=y54zDw3svvs"
+    },
+    {
+      "video_id": "TuEE2I0ZFyQ",
+      "title": "Feeling overwhelmed with questions when starting your freelance journey?",
+      "thumbnail": "https://i.ytimg.com/vi/TuEE2I0ZFyQ/hqdefault.jpg",
+      "published_at": "2024-10-09T15:39:52Z",
+      "duration": 31.0,
+      "description": "Then listen to this!",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 4663,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=TuEE2I0ZFyQ"
+    },
+    {
+      "video_id": "n_rMZmv8n-g",
+      "title": "If you are becoming a Software Engineer, the worst mistake you can make is not having this!",
+      "thumbnail": "https://i.ytimg.com/vi/n_rMZmv8n-g/hqdefault.jpg",
+      "published_at": "2024-10-09T20:35:17Z",
+      "duration": 36.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 10805,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=n_rMZmv8n-g"
+    },
+    {
+      "video_id": "iwxPb0hOR4g",
+      "title": "5 Nooby Coding Mistakes You NEED To Avoid",
+      "thumbnail": "https://i.ytimg.com/vi/iwxPb0hOR4g/hqdefault.jpg",
+      "published_at": "2024-10-10T15:46:45Z",
+      "duration": 1185.0,
+      "description": "\ud83d\udc49 To try everything Brilliant has to offer for free for a full 30 days, visit https://brilliant.org/TechWithTim . You'll also get a 20% discount on a premium subscription.\n\nIn this video, I will be showing you the 5 most common programming mistakes that I've seen made literally every single day. Every programmer has made these same mistakes at point in their programming journey and this video is going to help you fix them very quickly and ensure that you don't write code like this.\n\nIf you want to land a developer job check out my program with CourseCareers: https://techwithtim.net/dev\n\n\u23f3 Timestamps \u23f3\n00:00 | Mistake 1\n02:52 | Mistake 2\n06:40 | Mistake 3\n10:37 | Mistake 4\n14:20 | Mistake 5\n\nHashtags\n#coding #mistakes #programming",
+      "tags": [
+        "tech with tim",
+        "programming mistakes",
+        "coding mistakes",
+        "programming mistakes to avoid",
+        "coding mistakes to avoid",
+        "learn to code",
+        "mistakes programmers make",
+        "mistakes to avoid in programming",
+        "mistakes to avoid learning to code",
+        "mistakes to avoid when learning to code",
+        "mistakes to avoid when learning programming",
+        "coding for beginners",
+        "software engineer",
+        "coding",
+        "programming",
+        "tech"
+      ],
+      "view_count": 21996,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=iwxPb0hOR4g"
+    },
+    {
+      "video_id": "WFWOql0HFMA",
+      "title": "Wondering whether to use Mac or Windows for programming?",
+      "thumbnail": "https://i.ytimg.com/vi/WFWOql0HFMA/hqdefault.jpg",
+      "published_at": "2024-10-10T17:08:33Z",
+      "duration": 35.0,
+      "description": "You might be surprised by the answer!",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 50096,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=WFWOql0HFMA"
+    },
+    {
+      "video_id": "oeAEQZpKkL8",
+      "title": "2 years ago, I joined a tech startup and wrote over 100,000 lines of code\ud83d\ude31",
+      "thumbnail": "https://i.ytimg.com/vi/oeAEQZpKkL8/hqdefault.jpg",
+      "published_at": "2024-10-10T20:53:19Z",
+      "duration": 45.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 71215,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=oeAEQZpKkL8"
+    },
+    {
+      "video_id": "N6n7WCn5Xww",
+      "title": "How do you know what you are supposed to learn?",
+      "thumbnail": "https://i.ytimg.com/vi/N6n7WCn5Xww/hqdefault.jpg",
+      "published_at": "2024-10-11T17:52:29Z",
+      "duration": 34.0,
+      "description": "Start with this!",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 4960,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=N6n7WCn5Xww"
+    },
+    {
+      "video_id": "zi3QGlQw2T8",
+      "title": "Do you think you're serious about pursuing a career as a Software Developer?",
+      "thumbnail": "https://i.ytimg.com/vi/zi3QGlQw2T8/hqdefault.jpg",
+      "published_at": "2024-10-11T23:00:37Z",
+      "duration": 35.0,
+      "description": "Then it's time to start thinking like one!",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 13752,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=zi3QGlQw2T8"
+    },
+    {
+      "video_id": "iDSwWUzbOwE",
+      "title": "How do you familiarise yourself with a new topic in the coding space?",
+      "thumbnail": "https://i.ytimg.com/vi/iDSwWUzbOwE/hqdefault.jpg",
+      "published_at": "2024-10-12T16:51:33Z",
+      "duration": 28.0,
+      "description": "Comment down below your thought process\ud83d\udc47",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 4663,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=iDSwWUzbOwE"
+    },
+    {
+      "video_id": "EZ9uplso9Pk",
+      "title": "What exactly does it mean to develop pattern recognition?",
+      "thumbnail": "https://i.ytimg.com/vi/EZ9uplso9Pk/hqdefault.jpg",
+      "published_at": "2024-10-12T21:46:17Z",
+      "duration": 30.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 6704,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=EZ9uplso9Pk"
+    },
+    {
+      "video_id": "uGJcCmPEINQ",
+      "title": "How do you practice programming?",
+      "thumbnail": "https://i.ytimg.com/vi/uGJcCmPEINQ/hqdefault.jpg",
+      "published_at": "2024-10-13T14:15:03Z",
+      "duration": 29.0,
+      "description": "Let\u2019s hear it in the comment section",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 21223,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=uGJcCmPEINQ"
+    },
+    {
+      "video_id": "dRLowkniec8",
+      "title": "Mastering the basics of a language is one thing...",
+      "thumbnail": "https://i.ytimg.com/vi/dRLowkniec8/hqdefault.jpg",
+      "published_at": "2024-10-13T20:58:24Z",
+      "duration": 33.0,
+      "description": "But designing software is a whole new level!",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 9231,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=dRLowkniec8"
+    },
+    {
+      "video_id": "Ypzt57cTQ3U",
+      "title": "My Tech Startup Failed...",
+      "thumbnail": "https://i.ytimg.com/vi/Ypzt57cTQ3U/hqdefault.jpg",
+      "published_at": "2024-10-14T14:00:37Z",
+      "duration": 673.0,
+      "description": "Here's the link to a FREE resource of a Business Startup Kit\" from myself and HubSpot! https://clickhubspot.com/u2kt\n\nAfter 2 years of hard work and a lot of money, my tech startup failed. In this video, I will be sharing with you the 5 most important lessons that I learned so you don't make the same mistakes that I did.\n\nIf you want to land a developer job check out my program with CourseCareers: https://techwithtim.net/dev\n\n\u23f3 Timestamps \u23f3\n00:00 | Context\n02:54 | Lesson 1\n04:38 | Lesson 2\n06:10 | Lesson 3\n07:22 | Lesson 4\n08:47 | Lesson 5\n\nHashtags\n#tech #startup #lessonslearned",
+      "tags": [
+        "tech with tim",
+        "startup failure stories",
+        "whystartups fail",
+        "starting a business",
+        "failed startups",
+        "how i failed",
+        "failure story",
+        "technology",
+        "business failure",
+        "tips",
+        "startups"
+      ],
+      "view_count": 73088,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=Ypzt57cTQ3U"
+    },
+    {
+      "video_id": "597GHUkC5eU",
+      "title": "Do you strategise before diving into coding?",
+      "thumbnail": "https://i.ytimg.com/vi/597GHUkC5eU/hqdefault.jpg",
+      "published_at": "2024-10-14T19:51:04Z",
+      "duration": 27.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 6054,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=597GHUkC5eU"
+    },
+    {
+      "video_id": "3QTOavyl2DU",
+      "title": "The best programmers in the world are not experts in one specific framework or language.",
+      "thumbnail": "https://i.ytimg.com/vi/3QTOavyl2DU/hqdefault.jpg",
+      "published_at": "2024-10-15T00:30:03Z",
+      "duration": 28.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 25833,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=3QTOavyl2DU"
+    },
+    {
+      "video_id": "8Wq8NZGurfU",
+      "title": "If you\u2019re new to programming, then stick around and listen.\ud83d\udc46",
+      "thumbnail": "https://i.ytimg.com/vi/8Wq8NZGurfU/hqdefault.jpg",
+      "published_at": "2024-10-15T15:51:45Z",
+      "duration": 24.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 3885,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=8Wq8NZGurfU"
+    },
+    {
+      "video_id": "fMKnVlCtT9w",
+      "title": "\u201cHow do I get good at programming?\u201d Listen to this.\ud83d\udc68\u200d\ud83d\udcbb\ud83d\udc46",
+      "thumbnail": "https://i.ytimg.com/vi/fMKnVlCtT9w/hqdefault.jpg",
+      "published_at": "2024-10-15T20:39:54Z",
+      "duration": 28.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 33168,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=fMKnVlCtT9w"
+    },
+    {
+      "video_id": "zpn-b0Y-tpo",
+      "title": "The biggest mistake most beginner coders make is thinking they can simply watch \u201cother people\u201d code.",
+      "thumbnail": "https://i.ytimg.com/vi/zpn-b0Y-tpo/hqdefault.jpg",
+      "published_at": "2024-10-16T15:02:01Z",
+      "duration": 28.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 15092,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=zpn-b0Y-tpo"
+    },
+    {
+      "video_id": "wgnsowoEnwE",
+      "title": "Programming can give you the freedom to...",
+      "thumbnail": "https://i.ytimg.com/vi/wgnsowoEnwE/hqdefault.jpg",
+      "published_at": "2024-10-16T19:57:54Z",
+      "duration": 34.0,
+      "description": "Manage your time, work from anywhere, and achieve financial freedom. \ud83d\udcb8\ud83d\udcc8",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 9518,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=wgnsowoEnwE"
+    },
+    {
+      "video_id": "ocMOZpuAMw4",
+      "title": "Cursor Tutorial for Beginners (AI Code Editor)",
+      "thumbnail": "https://i.ytimg.com/vi/ocMOZpuAMw4/hqdefault.jpg",
+      "published_at": "2024-10-17T14:00:53Z",
+      "duration": 920.0,
+      "description": "\ud83d\udc49 To try everything Brilliant has to offer for free for a full 30 days, visit https://brilliant.org/TechWithTim . You'll also get a 20% discount on a premium subscription.\n\nWelcome to the beginners tutorial for Cursor, and AI powered code editor that promises to make your development easier. This quick tutorial will cover everything that I've learned from using this program and some of the best practices that you can apply, especially if you're just starting your programming journey and haven't used many AI tools before. Be sure to watch until the very end so you'll know exactly how this AI code editor work and how to get the best results of it.\n\nIf you want to land a developer job check out my program with CourseCareers: https://techwithtim.net/dev\n\nGET MY FREE SOFTWARE DEVELOPMENT GUIDE\ud83d\udc47\nhttps://training.techwithtim.net/free-guide\n\n\u23f3 Timestamps \u23f3\n00:00 | Overview\n00:30 | Setup\n01:05 | Make a Plan\n02:07 | Composer\n05:05 | Chat Window\n07:35 | Code Search\n08:28 | In-line Editing\n11:30 | Image to Code\n\nHashtags\n#cursor #tutorial #beginner",
+      "tags": [
+        "tech with tim",
+        "cursor ai",
+        "cursor ai tutorial",
+        "cursor tutorial",
+        "cursor ai code editor",
+        "cursor",
+        "cursor code editor",
+        "cursor ai editor",
+        "ai tutorial",
+        "cursor ai for beginners",
+        "cursor ai editor tutorial",
+        "cursor composer",
+        "cursor ai code",
+        "how to set up cursor ai",
+        "code editor",
+        "code for beginners",
+        "cursor ai beginners"
+      ],
+      "view_count": 365868,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=ocMOZpuAMw4"
+    },
+    {
+      "video_id": "Ulf9D2W0MOo",
+      "title": "Is Python a great language for 13-year-olds?",
+      "thumbnail": "https://i.ytimg.com/vi/Ulf9D2W0MOo/hqdefault.jpg",
+      "published_at": "2024-10-17T15:09:57Z",
+      "duration": 27.0,
+      "description": "How old were you when you started coding? Let\u2019s hear it in the comments! \ud83d\udc68\u200d\ud83d\udcbb\ud83d\udd25",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 12664,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=Ulf9D2W0MOo"
+    },
+    {
+      "video_id": "TBgYcPauyFs",
+      "title": "What non-programming skills are essential for software engineers?",
+      "thumbnail": "https://i.ytimg.com/vi/TBgYcPauyFs/hqdefault.jpg",
+      "published_at": "2024-10-17T21:16:52Z",
+      "duration": 34.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 13784,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=TBgYcPauyFs"
+    },
+    {
+      "video_id": "WWPvwl8osb0",
+      "title": "How to land a job or internship in coding?",
+      "thumbnail": "https://i.ytimg.com/vi/WWPvwl8osb0/hqdefault.jpg",
+      "published_at": "2024-10-18T15:36:19Z",
+      "duration": 32.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 5847,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=WWPvwl8osb0"
+    },
+    {
+      "video_id": "iBoiSQKSxC8",
+      "title": "99% of the time, your work as a software engineer is all about\u2026",
+      "thumbnail": "https://i.ytimg.com/vi/iBoiSQKSxC8/hqdefault.jpg",
+      "published_at": "2024-10-18T21:05:38Z",
+      "duration": 28.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 14616,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=iBoiSQKSxC8"
+    },
+    {
+      "video_id": "4DdP6pe74LY",
+      "title": "One thing I wish I had known when I started programming",
+      "thumbnail": "https://i.ytimg.com/vi/4DdP6pe74LY/hqdefault.jpg",
+      "published_at": "2024-10-19T13:56:46Z",
+      "duration": 23.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 6004,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=4DdP6pe74LY"
+    },
+    {
+      "video_id": "2KLi1H4w_MY",
+      "title": "What is your thought process when you code?\ud83d\udcad",
+      "thumbnail": "https://i.ytimg.com/vi/2KLi1H4w_MY/hqdefault.jpg",
+      "published_at": "2024-10-19T19:00:02Z",
+      "duration": 29.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 5498,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=2KLi1H4w_MY"
+    },
+    {
+      "video_id": "xpcRb01S9fc",
+      "title": "Many beginner software engineers often gravitate toward frontend development...",
+      "thumbnail": "https://i.ytimg.com/vi/xpcRb01S9fc/hqdefault.jpg",
+      "published_at": "2024-10-20T12:48:26Z",
+      "duration": 25.0,
+      "description": "Thinking it\u2019s the easier path. While it\u2019s true that frontend can be more accessible initially, I encourage you to consider exploring other areas. Stepping out of your comfort zone.",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 22974,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=xpcRb01S9fc"
+    },
+    {
+      "video_id": "o8p7uQCGD0U",
+      "title": "Streamlit Mini Course - Make Websites With ONLY Python",
+      "thumbnail": "https://i.ytimg.com/vi/o8p7uQCGD0U/hqdefault.jpg",
+      "published_at": "2024-10-20T16:17:39Z",
+      "duration": 5731.0,
+      "description": "Check out this FREE guide on how to land a developer role in the world of AI: https://clickhubspot.com/ic2f\n\nIn this mini course, you'll learn about Streamlit, a fantastic Python UI library that allows you to make interfaces very quickly. I'll be showing you how to build an entire website in just a few minutes, and cover all of the graphical components like forms, models, charts, and buttons. Not only that, I'll also explain the more advanced features of Streamlit such as the architecture and how things are rendered so you can build more complex applications. This mini course will show everything you need to know and how easy it is to build websites and interfaces in purely Python.\n\nIf you want to land a developer job check out my program with CourseCareers: https://techwithtim.net/dev\n\n\ud83c\udf9e Video Resources \ud83c\udf9e\nMultiple Pages Docs: https://docs.streamlit.io/develop/concepts/multipage-apps/pages-directory\n\n\u23f3 Timestamps \u23f3\n00:00:00 | Overview\n00:03:26 | Installation/Setup\n00:04:40 | st.write() and Magic\n00:10:25 | Streamlit Data Flow\n00:14:35 | Text Elements\n00:17:33 | Images\n00:19:27 | Data Elements\n00:23:00 | Chart Elements\n00:25:13 | Form Elements\n00:27:35 | Simple Form Example\n00:39:16 | Advanced Form Example\n00:42:00 | Session State\n00:48:40 | Callbacks\n01:00:22 | Layouts\n01:05:06 | Advanced Widget Concepts\n01:15:30 | Caching\n01:22:37 | st.rerun()\n01:24:55 | Fragments\n01:28:22 | Multi-Pages App\n01:32:27 | More Advanced Pages\n\nHashtags\n#streamlit #course #python",
+      "tags": [
+        "tech with tim",
+        "streamlit python web app",
+        "streamlit python tutorial",
+        "streamlit python projects",
+        "streamlit python",
+        "streamlit full course",
+        "streamlit crash course",
+        "streamlit project",
+        "streamlit tutorial",
+        "streamlit projects",
+        "streamlit",
+        "how to streamlit",
+        "python streamlit",
+        "how to use streamlit"
+      ],
+      "view_count": 77820,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=o8p7uQCGD0U"
+    },
+    {
+      "video_id": "Dh21u07uICM",
+      "title": "There\u2019s no magic formula for becoming a great programmer",
+      "thumbnail": "https://i.ytimg.com/vi/Dh21u07uICM/hqdefault.jpg",
+      "published_at": "2024-10-20T19:39:36Z",
+      "duration": 30.0,
+      "description": "But it all boils down to these two essential elements!",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 6326,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=Dh21u07uICM"
+    },
+    {
+      "video_id": "UzGbj4RU4u4",
+      "title": "You ready for that next level? \ud83d\ude80",
+      "thumbnail": "https://i.ytimg.com/vi/UzGbj4RU4u4/hqdefault.jpg",
+      "published_at": "2024-10-21T16:46:38Z",
+      "duration": 25.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 2704,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=UzGbj4RU4u4"
+    },
+    {
+      "video_id": "vPZPScF6Ovs",
+      "title": "These are the moments where I build my confidence as a programmer!",
+      "thumbnail": "https://i.ytimg.com/vi/vPZPScF6Ovs/hqdefault.jpg",
+      "published_at": "2024-10-21T20:11:35Z",
+      "duration": 27.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 4652,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=vPZPScF6Ovs"
+    },
+    {
+      "video_id": "nmWNIRFVFGY",
+      "title": "The real growth happens when you push your limits and take on the challenges that scare you \ud83d\ude80",
+      "thumbnail": "https://i.ytimg.com/vi/nmWNIRFVFGY/hqdefault.jpg",
+      "published_at": "2024-10-22T15:24:17Z",
+      "duration": 31.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 4074,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=nmWNIRFVFGY"
+    },
+    {
+      "video_id": "IYg_5_l6YGw",
+      "title": "It's about being resourceful! Learn to use different AI tools to work smarter, not harder.",
+      "thumbnail": "https://i.ytimg.com/vi/IYg_5_l6YGw/hqdefault.jpg",
+      "published_at": "2024-10-22T20:36:43Z",
+      "duration": 26.0,
+      "description": "Adapt and evolve\ud83e\udd16\ud83d\udcbb",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 7008,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=IYg_5_l6YGw"
+    },
+    {
+      "video_id": "msLovKSj8Q0",
+      "title": "ADVANCED Python AI Multi-Agent Tutorial (RAG, Streamlit, Langflow & More!)",
+      "thumbnail": "https://i.ytimg.com/vi/msLovKSj8Q0/hqdefault.jpg",
+      "published_at": "2024-10-23T14:00:44Z",
+      "duration": 6476.0,
+      "description": "In this video, I will be providing you with a walkthrough on how to build an advanced multi-agent AI app through Python, Langflow, Astra DB, Streamlit, and more. This app will use multiple LLMs that to handle different tasks, routing those tasks to different LLMs, and will even have a full frontend that allows you to interact with the completed application. It's one of the most advanced AI apps I've built on this channel so be sure to stick to the very end of this tutorial to learn everything it has to offer and have the power to build some insanely cool apps.\n\n\ud83c\udf9e Video Resources \ud83c\udf9e\nGet started with DataStax: https://dtsx.io/techwithtim-astradb\nLangflow Github Rep: https://dtsx.io/techwithtim-langflow\nCheck out DataStax AI PaaS: https://dtsx.io/techwithtim-aipaas\nCode in this video (prompts/code/flows): https://github.com/techwithtim/Advanced-Multi-Agent-Workout-App\n\nIf you want to land a developer job check out my program with CourseCareers: https://techwithtim.net/dev\n\n\u23f3 Timestamps \u23f3\n00:00:00 | Video Overview\n00:01:26 | Project Demo\n00:05:10 | Langflow Setup\n00:08:03 | Building a Simple Flow/Agent\n00:17:45 | Building a Complex Flow/Agent\n00:39:35 | Using the AI From Python Code (Locally) | 00:39:35\n00:46:50 | Using the AI From Python Code (Cloud)\n00:53:40 | Frontend Setup \n00:56:07 | Personal Data Form\n01:01:57 | Saving Data in AstraDB\n01:17:05 | Updating Data in AstraDB\n01:26:27 | Nutrition Form\n01:39:27 | Handling Notes\n01:44:09 | Ask AI Feature\n\nHashtags\n#aiagents #advanced  #tutorial",
+      "tags": [
+        "tech with tim",
+        "streamlit",
+        "langchain agent",
+        "langchain agents",
+        "python conversational agent research toolkit",
+        "langflow",
+        "conversational agent research toolkit python",
+        "advanced ai interaction",
+        "agents",
+        "chatgpt streamlit",
+        "how to use agent gpt",
+        "multi modal rag with llamaindex",
+        "ai agents",
+        "dataframe agent",
+        "autonomous agents",
+        "autonomous ai agents",
+        "what is ai agent",
+        "multi modal rag",
+        "ai agent tutorial",
+        "agent gpt tutorial",
+        "ai agents tutorial",
+        "ai agent",
+        "agent gpt",
+        "best ai agent"
+      ],
+      "view_count": 77086,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=msLovKSj8Q0"
+    },
+    {
+      "video_id": "Tvg2JCpGeq4",
+      "title": "This is the one thing you need to focus on first!",
+      "thumbnail": "https://i.ytimg.com/vi/Tvg2JCpGeq4/hqdefault.jpg",
+      "published_at": "2024-10-23T15:28:06Z",
+      "duration": 28.0,
+      "description": "",
+      "tags": [
+        "tech with tim"
+      ],
+      "view_count": 4572,
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "url": "https://www.youtube.com/watch?v=Tvg2JCpGeq4"
+    },
+    {
       "video_id": "rRCbfK8QfSM",
       "title": "What if I told you...",
       "thumbnail": "https://i.ytimg.com/vi/rRCbfK8QfSM/hqdefault.jpg",
