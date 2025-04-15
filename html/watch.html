@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Watch Video - AgapeOS</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f9f9f9;
+      padding: 2em;
+      display: flex;
+      gap: 2em;
+    }
+    .main {
+      flex: 2;
+    }
+    .sidebar {
+      flex: 1;
+      background: white;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    }
+    iframe, img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 8px;
+    }
+    h1 {
+      font-size: 1.5em;
+      margin-top: 0.5em;
+    }
+    .meta {
+      color: #555;
+      font-size: 0.9em;
+      margin-bottom: 1em;
+    }
+    .recommendation {
+      margin-bottom: 1em;
+    }
+    .recommendation img {
+      width: 100%;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="main" id="video-container">
+  <h1>Loading...</h1>
+</div>
+
+<div class="sidebar" id="recommendations">
+  <h2>Recommended</h2>
+</div>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const channel = params.get("channel");
+  const videoId = params.get("video");
+
+  if (!channel || !videoId) {
+    document.getElementById("video-container").innerHTML = "<h1>Missing video or channel.</h1>";
+    throw new Error("Missing query parameters.");
+  }
+
+  fetch(`cached/${channel}.json`)
+    .then(res => res.json())
+    .then(data => {
+      const videos = data.videos || [];
+      const video = videos.find(v => v.video_id === videoId);
+
+      if (!video) {
+        document.getElementById("video-container").innerHTML = "<h1>Video not found</h1>";
+        return;
+      }
+
+      // Main Video Section
+      document.getElementById("video-container").innerHTML = `
+        <iframe src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+        <h1>${video.title}</h1>
+        <div class="meta">👁️ ${formatViews(video.view_count)} • 📅 ${formatDate(video.published_at)}</div>
+        <p>${video.description || ''}</p>
+      `;
+
+      // Recommendations from same channel
+      const recommendations = videos
+        .filter(v => v.video_id !== videoId)
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 8);
+
+      const recContainer = document.getElementById("recommendations");
+      recommendations.forEach(v => {
+        recContainer.innerHTML += renderRec(channel, v);
+      });
+    })
+    .catch(err => {
+      console.error(err);
+      document.getElementById("video-container").innerHTML = "<h1>Error loading video.</h1>";
+    });
+
+  function renderRec(channel, video) {
+    return `
+      <div class="recommendation">
+        <a href="watch.html?channel=${channel}&video=${video.video_id}">
+          <img src="${video.thumbnail}" alt="${video.title}">
+        </a>
+        <div><strong>${video.title}</strong></div>
+        <div class="meta">👁️ ${formatViews(video.view_count)}</div>
+      </div>
+    `;
+  }
+
+  function formatViews(count) {
+    count = parseInt(count);
+    if (count >= 1_000_000) return `${(count / 1_000_000).toFixed(1)}M views`;
+    if (count >= 1_000) return `${(count / 1_000).toFixed(1)}K views`;
+    return `${count} views`;
+  }
+
+  function formatDate(iso) {
+    const d = new Date(iso);
+    return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+  }
+</script>
+
+</body>
+</html>

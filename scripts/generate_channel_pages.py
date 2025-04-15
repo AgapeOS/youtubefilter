@@ -23,11 +23,11 @@ def format_views(count):
         return f"{count // 1_000}K views"
     return f"{count} views"
 
-def render_video_block(video):
+def render_video_block(video, handle):
     short_class = " short" if video["duration"] <= 130 else ""
     return f"""
     <div class="video{short_class}">
-        <a href="../watch.html?video={video['video_id']}">
+        <a href="../watch.html?channel={handle}&video={video['video_id']}">
             <img src="{video['thumbnail']}" alt="{video['title']}">
         </a>
         <div class="meta">
@@ -111,7 +111,7 @@ def build_html(handle, data):
     <div class="section">
         <h2>🔥 Top 5 Most Viewed</h2>
         <div class="video-grid">
-            {"".join(render_video_block(v) for v in top_videos)}
+            {"".join(render_video_block(v, title) for v in top_videos)}
         </div>
     </div>
 
@@ -127,12 +127,12 @@ def build_html(handle, data):
 
         if full_chunk:
             html += f"<h3>🎥 Full Videos {i+1}–{i+len(full_chunk)}</h3><div class='video-grid'>"
-            html += "".join(render_video_block(v) for v in full_chunk)
+            html += "".join(render_video_block(v, title) for v in full_chunk)
             html += "</div>"
 
         if short_chunk:
             html += f"<h3>📱 Shorts {i+1}–{i+len(short_chunk)}</h3><div class='video-grid'>"
-            html += "".join(render_video_block(v) for v in short_chunk)
+            html += "".join(render_video_block(v,title) for v in short_chunk)
             html += "</div>"
 
         i += max(chunk_full, chunk_shorts)

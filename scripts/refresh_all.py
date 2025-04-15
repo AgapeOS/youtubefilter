@@ -21,9 +21,6 @@ def main():
     print("Step 3: Build channel HTML pages")
     run_script("scripts/generate_channel_pages.py")
 
-    print("Step 4: Build all_videos.json (used for recommendations + video viewer)")
-    run_script("scripts/generate_all_videos.py")
-
     print("Step 5: Build main index.html with approved channels")
     run_script("scripts/generate_channel_list.py")
 
